@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
+<head>
+
+    <title>Document</title>
+</head>
+
+<body>
     <!-- write the body here -->
-	  <input id="age" type="number">
-	  <br>
-	  <br>
-	  <input id="name" type="text">
-	  <br><br>
-	  <button id="btn" type="submit">Submit</button>
-	  
+    <form onsubmit="return false">
+        <label><input id="age" type="number" required value=""></label>
+        <br>
+        <br>
+        <label><input id="name" type="text" required value=""></label>
+        <br><br>
+        <label><button id="btn" type="submit">Submit</button></label>
+    </form>
 
     <script type="text/javascript" src="./script.js"></script>
-  </body>
+</body>
+
 </html>
