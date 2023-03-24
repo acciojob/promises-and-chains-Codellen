@@ -8,7 +8,7 @@ listen.addEventListener("click",function click(){
 		//const div = document.createElement('div');
 		let name = getname.value;
 		let age = getage.value;
-		if(age>18)
+		if(age>=18)
 		{
 			setTimeout(()=>{
 				resolve(`Welcome, ${name}. You can vote`)
